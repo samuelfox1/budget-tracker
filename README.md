@@ -1,63 +1,98 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+# budget-tracker
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+>## Description 
 
-Offline Functionality:
+* Add expenses and deposits to a budget with or without an internet connection.
+* #### Story
+    * AS AN avid traveller,
+    * I WANT to be able to track my withdrawals and deposits with or without a data/internet connection.
+    * SO THAT my account balance is accurate when I am traveling.
 
-  * Enter deposits offline
+<br>
 
-  * Enter expenses offline
+>## Table of Contents
 
-When brought back online:
+* [Contributing](#Contributing)
+* [Description](#Description)
+* [Installation](#Installation)
+* [License](#License)
+* [Questions](#Questions)
+* [Story](#Story)
+* [Testing](#Testing)
+* [Usage](#Usage)
+<br>
 
-  * Offline entries should be added to tracker.
+[![license](https://img.shields.io/badge/License-MIT-blue)](#License)
+<br>
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
+<br>
 
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![ExpressJS](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)![MongoDB](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-- - -
+>## Product
 
-## Commit Early and Often
+* [Check it out!](https://dashboard.heroku.com/apps/sjf-budget-tracker-2021) 
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+![Screenshot](public/assets/images/screenshot.png)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+<br>
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+>## Installation
 
-* Follow these guidelines for committing:
+1. Open in browser
+2. Add page to homescreen
+3. Open app and use with or without internet connection
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+<br>
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+>## Usage
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+1. Add debits and credits
+2. Follow the graph to track your finances
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+<br>
 
-## Submission on BCS
+>## Contributing
 
-* You are required to submit the following:
+* [Submit bugs and feature requests](https://github.com/samuelfox1/budget-tracker/issues)
+* [Review changes](https://github.com/samuelfox1/budget-tracker/pulls)
+* [Contributor Covenant Code of Conduct](./assets/utils/CodeOfConduct.md)
 
-  * the URL to the deployed application
 
-  * the URL to the Github repository
+<br>
 
+>## Questions
+
+| Name | Email  | Github  | LinkedIn |
+| :--: | :----: | :-----: | :------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](public/assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](public/assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuelfox-tacoma) |
+
+<br>
+
+>## License
+
+MIT License
+
+Copyright 2021 Samuel Fox
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<br>
+
+The images found in 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+<br>
+
+2021
+<br>
+
+>## [Top of page](#budget-tracker)
